@@ -1,0 +1,21 @@
+body{
+	color: black;
+	margin: 10%;
+	font-size: 150%;
+
+}
+
+h1{
+	color: blue;
+	margin-top: 0%;
+	text-align: center;
+	font-size: 4em;
+}
+
+button{
+	margin: auto;
+	 padding: 1em 2em;
+	 color: blue;
+	 font-size: 150%;
+	 border-radius: 30%;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>DrinkUp</title>
+</head>
+<body>
+<h1>DrinkUp!</h1>
+
+<p>During the hot, sweaty summer months, it is essential to keep your body hydrated. As you continue to sweat, your body is losing more and more fluids, which you need to maintain. You can do this by, you guessed it, drinking water!
+
+So how much water should you be drinking? Here's what the experts say:
+
+<ul><li>Take your weight in pounds
+</li><li>Divide that number by 2</li></ul>
+
+And that's it! That is the number of ounces of water that you should be drinking on a daily basis.
+
+Does that number seem extremely high? That's alright! That's what this app is for. Set your daily reminders now!</p>
+
+<button onclick="remFunction()">Set Reminder</button>
+
+<script>
+function remFunction() {
+  let mins = window.prompt("How often would you like to be reminded? Every __ minutes:")
+   timer = setInterval(function() {
+                alert("It's time to drink water!");
+            }, 1000*mins*60);
+}
+</script>
+
+</body>
+</html>
